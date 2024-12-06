@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__menu-link {
+  color: #000;
+  text-decoration: none;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.header__menu-btn {
+  background-color: transparent;
+  border: 1px solid #191a23;
+  border-radius: 14px;
+  padding: 20px 35px;
+  color: #000;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.header__menu-btn:hover {
+  cursor: pointer;
+}
