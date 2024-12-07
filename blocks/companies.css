@@ -1,0 +1,9 @@
+.companies {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.companies__logo {
+  filter: grayscale(1);
+}

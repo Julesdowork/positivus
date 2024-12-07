@@ -1,0 +1,35 @@
+.landing {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.landing__title {
+  max-width: 531px;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.landing__subtitle {
+  max-width: 498px;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 35px 0 0;
+}
+
+.landing__btn {
+  max-width: 264px;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 35px 0 34px;
+  color: #fff;
+  background-color: #191a23;
+  border: none;
+  border-radius: 14px;
+  padding: 20px 35px;
+}
