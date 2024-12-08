@@ -1,0 +1,63 @@
+.service {
+  width: 600px;
+  border: 1px solid #191a23;
+  border-radius: 45px;
+  box-shadow: 0 5px 0 #191a23;
+  padding: 50px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.service_background_grey {
+  background-color: #f3f3f3;
+}
+
+.service_background_green {
+  background-color: #b9ff66;
+}
+
+.service_background_dark {
+  background-color: #191a23;
+}
+
+.service__text-area {
+  max-width: 221px;
+}
+
+.service__title {
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.service__label {
+  padding: 0 7px;
+  border-radius: 7px;
+}
+
+.service__label_color_green {
+  background-color: #b9ff66;
+  color: #000;
+}
+
+.service__link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.service__btn {
+  background-image: url("../images/link_green_on_black.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service__illustration {
+  height: 170px;
+  width: 210px;
+}

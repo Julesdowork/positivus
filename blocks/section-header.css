@@ -1,0 +1,23 @@
+.section-header {
+  display: flex;
+  align-items: center;
+}
+
+.section-header__title {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 40px 0 0;
+}
+
+.section-header__subtitle {
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+  max-width: 580px;
+}
