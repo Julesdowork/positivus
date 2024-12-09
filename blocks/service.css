@@ -1,14 +1,14 @@
 .service {
   width: 600px;
+  height: 310px;
   border: 1px solid #191a23;
   border-radius: 45px;
   box-shadow: 0 5px 0 #191a23;
   padding: 50px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-between;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 .service_background_grey {
@@ -25,22 +25,29 @@
 
 .service__text-area {
   max-width: 221px;
+  display: flex;
+  flex-direction: column;
 }
 
 .service__title {
   font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
+  margin: 0;
 }
 
 .service__label {
   padding: 0 7px;
   border-radius: 7px;
+  color: #000;
 }
 
 .service__label_color_green {
   background-color: #b9ff66;
-  color: #000;
+}
+
+.service__label_color_white {
+  background-color: #fff;
 }
 
 .service__link {
@@ -49,15 +56,35 @@
   font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 1.6;
+  margin-top: 93px;
+  display: flex;
+  align-items: center;
+}
+
+.service__link_color_white {
+  color: #fff;
 }
 
 .service__btn {
-  background-image: url("../images/link_green_on_black.svg");
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 15px;
+  width: 41px;
+  height: 41px;
+  border: none;
+  background-color: transparent;
+}
+
+.service__btn_color_black {
+  background-image: url("../images/link_green_on_black.svg");
+}
+
+.service__btn_color_white {
+  background-image: url("../images/link_black_on_white.svg");
 }
 
 .service__illustration {
   height: 170px;
   width: 210px;
+  align-self: center;
 }

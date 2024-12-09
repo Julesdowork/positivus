@@ -1,0 +1,45 @@
+.cta {
+  padding-top: 100px;
+}
+
+.cta__card {
+  background-color: #f3f3f3;
+  border-radius: 45px;
+  padding: 60px;
+  position: relative;
+}
+
+.cta__text-button {
+  max-width: 500px;
+}
+
+.cta__title {
+  margin: 0;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.cta__paragraph {
+  margin: 26px 0 0;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.cta__btn {
+  margin: 26px 0 0;
+  padding: 20px 35px;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #fff;
+  background-color: #191a23;
+  border: none;
+  border-radius: 14px;
+}
+
+.cta__illustration {
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
