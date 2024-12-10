@@ -1,0 +1,58 @@
+.case-studies {
+  padding-top: 164px;
+}
+
+.case-studies__list {
+  padding: 70px 60px;
+  margin: 80px 0 0;
+  list-style-type: none;
+  background-color: #191a23;
+  border-radius: 45px;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.case-studies__list-item {
+  width: 350px;
+}
+
+.case-studies__list-item:first-of-type {
+  padding-left: 0;
+}
+
+.case-studies__list-item:last-of-type {
+  border-right: none;
+}
+
+.case-studies__case {
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  max-width: 286px;
+  line-height: 23px;
+}
+
+.case-studies__link {
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #b9ff66;
+  display: flex;
+  align-items: center;
+}
+
+.case-studies__link-arrow {
+  background-image: url("../images/link_green_arrow.svg");
+  width: 21px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.case-studies__divider {
+  height: 186px;
+  border-right: 1px solid #fff;
+}
