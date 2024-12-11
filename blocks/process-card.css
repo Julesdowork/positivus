@@ -1,0 +1,31 @@
+.process-card {
+  padding: 41px 60px;
+  background-color: #b9ff66;
+  border: 1px solid #191a23;
+  border-radius: 45px;
+  box-shadow: 0 5px 0 #191a23;
+}
+
+.process-card__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.process-card__title {
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.process-card__number {
+  font-size: 60px;
+  margin-right: 25px;
+}
+
+.process-card__btn {
+}
